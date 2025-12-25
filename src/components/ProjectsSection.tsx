@@ -92,7 +92,7 @@ const ProjectsSection: React.FC = () => {
               <h3 className="text-3xl font-black text-slate-900 mb-4 tracking-tight group-hover:text-indigo-600 transition-colors">
                 {project.title}
               </h3>
-              <p className="text-slate-500 mb-10 flex-grow leading-relaxed text-lg font-medium">
+              <p className="text-slate-500 mb-10 grow leading-relaxed text-lg font-medium">
                 {project.description}
               </p>
 

@@ -88,7 +88,7 @@ const CaseStudyModal: React.FC<CaseStudyModalProps> = ({
               The Context
             </span>
             <p className="text-2xl text-slate-900 font-medium leading-relaxed tracking-tight italic">
-              "{project.description}"
+              {project.description}
             </p>
           </section>
 
