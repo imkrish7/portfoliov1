@@ -3,7 +3,7 @@ import { Experience, Project, SkillCategory } from "../types/expriences";
 export const EXPERIENCES: Experience[] = [
   {
     company: "Togggle",
-    role: "Senior Software Engineer (Decentralized KYC)",
+    role: "Software Engineer (Decentralized KYC)",
     period: "May '22 - Feb '25",
     description: [
       "Developed a user-friendly platform that simplifies the KYC process, significantly reducing customer onboarding time.",
@@ -27,7 +27,7 @@ export const EXPERIENCES: Experience[] = [
   },
   {
     company: "Bookscribs",
-    role: "Senior Software Engineer (Team Lead)",
+    role: "Software Engineer (Team Lead)",
     period: "Mar '21 - Apr '22",
     description: [
       "Developed a scalable story management dashboard, improving content creation efficiency by 15%.",
@@ -72,22 +72,72 @@ export const EXPERIENCES: Experience[] = [
 
 export const PROJECTS: Project[] = [
   {
-    title: "Kounter",
+    title: "Journal",
     description:
-      "A fee management system with a dashboard for fee tracking and interfaces for uploading fees and generating reports.",
-    technologies: ["Node.js", "React.js", "D3", "Next.js", "TypeScript"],
+      "A Personal Journaling App which behaves like a personal diary, allowing users to record their thoughts, feelings, and experiences.",
+    technologies: [
+      "Node.js",
+      "React.js",
+      "Next.js",
+      "TypeScript",
+      "TailwindCSS",
+      "Python",
+      "Langgraph",
+    ],
+    status: "Development",
+    caseStudy: {
+      problem:
+        "Traditional fee management in educational institutions was fragmented, leading to 20% reconciliation errors and delayed reporting.",
+      solution:
+        "Engineered a centralized platform using Next.js and D3.js. Built a real-time tracking engine that synchronizes transaction logs across multiple payment gateways.",
+      impact:
+        "Reduced manual reconciliation time by 80% and provided administrators with instant financial visibility.",
+      architecture:
+        "Monolithic frontend with microservices handling report generation via Redis queues.",
+    },
   },
   {
-    title: "Etherzen",
+    title: "Agentorage",
     description:
-      "A project flow management system with a dashboard for tracking projects and interfaces for task creation and editing.",
-    technologies: ["Node.js", "React.js", "TypeScript", "D3"],
+      "Agentic personal cloud storage which enables users to store and manage their data securely and privately.",
+    technologies: [
+      "Node.js",
+      "React.js",
+      "TypeScript",
+      "Shadcn UI",
+      "TailwindCSS",
+      "Prisma",
+      "Shadcn UI",
+      "TailwindCSS",
+      "NextAuth",
+      "Prisma",
+    ],
+    caseStudy: {
+      problem:
+        "Traditional fee management in educational institutions was fragmented, leading to 20% reconciliation errors and delayed reporting.",
+      solution:
+        "Engineered a centralized platform using Next.js and D3.js. Built a real-time tracking engine that synchronizes transaction logs across multiple payment gateways.",
+      impact:
+        "Reduced manual reconciliation time by 80% and provided administrators with instant financial visibility.",
+      architecture:
+        "Monolithic frontend with microservices handling report generation via Redis queues.",
+    },
   },
   {
     title: "Emotion Recognition System",
     description:
       "A government-funded academic project for autistic individuals using image processing and PCA/KNN algorithms in Python.",
     technologies: ["Python", "OpenCV", "Machine Learning", "Image Processing"],
+    caseStudy: {
+      problem:
+        "Traditional fee management in educational institutions was fragmented, leading to 20% reconciliation errors and delayed reporting.",
+      solution:
+        "Engineered a centralized platform using Next.js and D3.js. Built a real-time tracking engine that synchronizes transaction logs across multiple payment gateways.",
+      impact:
+        "Reduced manual reconciliation time by 80% and provided administrators with instant financial visibility.",
+      architecture:
+        "Monolithic frontend with microservices handling report generation via Redis queues.",
+    },
   },
 ];
 

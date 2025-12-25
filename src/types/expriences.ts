@@ -12,6 +12,13 @@ export interface Project {
   description: string;
   technologies: string[];
   link?: string;
+  status?: string;
+  caseStudy?: {
+    problem: string;
+    solution: string;
+    impact: string;
+    architecture?: string;
+  };
 }
 
 export interface SkillCategory {
