@@ -4,6 +4,15 @@ const nextConfig: NextConfig = {
   /* config options here */
   reactCompiler: true,
   reactStrictMode: true,
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "res.cloudinary.com",
+        port: "",
+      },
+    ],
+  },
 };
 
 export default nextConfig;
