@@ -86,15 +86,14 @@ export const PROJECTS: Project[] = [
     ],
     status: "Development",
     caseStudy: {
-      problem:
-        "Traditional fee management in educational institutions was fragmented, leading to 20% reconciliation errors and delayed reporting.",
-      solution:
-        "Engineered a centralized platform using Next.js and D3.js. Built a real-time tracking engine that synchronizes transaction logs across multiple payment gateways.",
+      problem: "A traditional journaling app with agentic capabilities.",
+      solution: "Built a personal companion which sounds like a bestfriend.",
       impact:
-        "Reduced manual reconciliation time by 80% and provided administrators with instant financial visibility.",
+        "In today digital age, people are more connected than ever before. But still feelings alone Journal companion will be your best friend.",
       architecture:
-        "Monolithic frontend with microservices handling report generation via Redis queues.",
+        "A nextjs application with python backend utilize nextjs as proxy to handle api calls.",
     },
+    githubLink: "https://github.com/imkrish7/journal-app.git",
   },
   {
     title: "Agentorage",
@@ -112,6 +111,7 @@ export const PROJECTS: Project[] = [
       "NextAuth",
       "Prisma",
     ],
+    githubLink: "https://github.com/imkrish7/agentorage.git",
     caseStudy: {
       problem:
         "Traditional fee management in educational institutions was fragmented, leading to 20% reconciliation errors and delayed reporting.",
@@ -129,14 +129,13 @@ export const PROJECTS: Project[] = [
       "A government-funded academic project for autistic individuals using image processing and PCA/KNN algorithms in Python.",
     technologies: ["Python", "OpenCV", "Machine Learning", "Image Processing"],
     caseStudy: {
-      problem:
-        "Traditional fee management in educational institutions was fragmented, leading to 20% reconciliation errors and delayed reporting.",
+      problem: "A project for autistic individuals using image processing.",
       solution:
-        "Engineered a centralized platform using Next.js and D3.js. Built a real-time tracking engine that synchronizes transaction logs across multiple payment gateways.",
+        "Implemented a real-time emotion recognition system using OpenCV and machine learning algorithms in Python.",
       impact:
-        "Reduced manual reconciliation time by 80% and provided administrators with instant financial visibility.",
+        "It helps bridging the gap between autistic individuals and their caregivers by providing real-time emotional feedback.",
       architecture:
-        "Monolithic frontend with microservices handling report generation via Redis queues.",
+        "A python script that uses OpenCV and machine learning algorithms to recognize emotions in real-time.",
     },
   },
 ];

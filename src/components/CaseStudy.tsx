@@ -211,9 +211,9 @@ const CaseStudyModal: React.FC<CaseStudyModalProps> = ({
                 View Source
               </a>
             )}
-            <button className="flex-1 bg-indigo-600 text-white py-4 rounded-2xl font-bold hover:bg-indigo-700 transition-all shadow-lg shadow-indigo-100 hover:shadow-indigo-200 active:scale-95">
+            {/*<button className="flex-1 bg-indigo-600 text-white py-4 rounded-2xl font-bold hover:bg-indigo-700 transition-all shadow-lg shadow-indigo-100 hover:shadow-indigo-200 active:scale-95">
               Launch App
-            </button>
+            </button>*/}
           </div>
         </div>
       </div>
