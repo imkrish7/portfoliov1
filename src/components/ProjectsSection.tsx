@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import { PROJECTS } from "../lib/constants";
-import { Project } from "@/types/expriences";
-import CaseStudyModal from "./CaseStudy";
+// import { Project } from "@/types/expriences";
+// import CaseStudyModal from "./CaseStudy";
 
 const ProjectsSection: React.FC = () => {
-  const [selectedProject, setSelectedProject] = useState<Project | null>(null);
+  // const [selectedProject, setSelectedProject] = useState<Project | null>(null);
 
   const getStatusColor = (status?: string) => {
     switch (status) {
@@ -109,12 +109,12 @@ const ProjectsSection: React.FC = () => {
 
               <div className="pt-8 border-t border-slate-50 flex items-center justify-between mt-auto">
                 <div className="flex items-center gap-4">
-                  <button
+                  {/*<button
                     onClick={() => setSelectedProject(project)}
                     className="text-sm font-bold text-slate-400 uppercase tracking-widest hover:text-indigo-600 transition-colors"
                   >
                     View Case Study
-                  </button>
+                  </button>*/}
                   {project.githubLink && (
                     <a
                       href={project.githubLink}
@@ -140,7 +140,7 @@ const ProjectsSection: React.FC = () => {
                     </a>
                   )}
                 </div>
-                <button
+                {/*<button
                   onClick={() => setSelectedProject(project)}
                   className="w-12 h-12 rounded-full border border-slate-200 flex items-center justify-center group-hover:bg-indigo-600 group-hover:text-white group-hover:border-indigo-600 transition-all shadow-sm"
                 >
@@ -158,16 +158,16 @@ const ProjectsSection: React.FC = () => {
                     <path d="M5 12h14" />
                     <path d="m12 5 7 7-7 7" />
                   </svg>
-                </button>
+                </button>*/}
               </div>
             </div>
           ))}
         </div>
       </div>
-      <CaseStudyModal
+      {/*<CaseStudyModal
         project={selectedProject}
         onClose={() => setSelectedProject(null)}
-      />
+      />*/}
     </section>
   );
 };

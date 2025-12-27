@@ -85,14 +85,15 @@ export const PROJECTS: Project[] = [
       "Langgraph",
     ],
     status: "Development",
-    caseStudy: {
-      problem: "A traditional journaling app with agentic capabilities.",
-      solution: "Built a personal companion which sounds like a bestfriend.",
-      impact:
-        "In today digital age, people are more connected than ever before. But still feelings alone Journal companion will be your best friend.",
-      architecture:
-        "A nextjs application with python backend utilize nextjs as proxy to handle api calls.",
-    },
+    // caseStudy: {
+    //   problem:
+    //     "Alternative to traditional journaling apps with agentic capabilities.",
+    //   solution: "Built a personal companion which sounds like a bestfriend.",
+    //   impact:
+    //     "In today digital age, people are more connected than ever before. But still feelings alone Journal companion will be your best friend.",
+    //   architecture:
+    //     "A nextjs application with python backend utilize nextjs as proxy to handle api calls.",
+    // },
     githubLink: "https://github.com/imkrish7/journal-app.git",
   },
   {
@@ -112,32 +113,32 @@ export const PROJECTS: Project[] = [
       "Prisma",
     ],
     githubLink: "https://github.com/imkrish7/agentorage.git",
-    caseStudy: {
-      problem:
-        "Traditional fee management in educational institutions was fragmented, leading to 20% reconciliation errors and delayed reporting.",
-      solution:
-        "Engineered a centralized platform using Next.js and D3.js. Built a real-time tracking engine that synchronizes transaction logs across multiple payment gateways.",
-      impact:
-        "Reduced manual reconciliation time by 80% and provided administrators with instant financial visibility.",
-      architecture:
-        "Monolithic frontend with microservices handling report generation via Redis queues.",
-    },
+    // caseStudy: {
+    //   problem: "",
+    //   solution:
+    //     "Built a personal cloud storage which enables users to store and manage their data securely and privately.",
+    //   impact:
+    //     "Reduced manual reconciliation time by 80% and provided administrators with instant financial visibility.",
+    //   architecture:
+    //     "Monolithic frontend with microservices handling report generation via Redis queues.",
+    // },
   },
-  {
-    title: "Emotion Recognition System",
-    description:
-      "A government-funded academic project for autistic individuals using image processing and PCA/KNN algorithms in Python.",
-    technologies: ["Python", "OpenCV", "Machine Learning", "Image Processing"],
-    caseStudy: {
-      problem: "A project for autistic individuals using image processing.",
-      solution:
-        "Implemented a real-time emotion recognition system using OpenCV and machine learning algorithms in Python.",
-      impact:
-        "It helps bridging the gap between autistic individuals and their caregivers by providing real-time emotional feedback.",
-      architecture:
-        "A python script that uses OpenCV and machine learning algorithms to recognize emotions in real-time.",
-    },
-  },
+  // {
+  //   title: "Emotion Recognition System",
+  //   description:
+  //     "A government-funded academic project for autistic individuals using image processing and PCA/KNN algorithms in Python.",
+  //   technologies: ["Python", "OpenCV", "Machine Learning", "Image Processing"],
+  // caseStudy: {
+  //   problem:
+  //     "How to bridge the gap between autistic individuals and their caregivers by providing real-time emotional feedback.",
+  //   solution:
+  //     "Implemented a real-time emotion recognition system using OpenCV and machine learning algorithms in Python.",
+  //   impact:
+  //     "It helps bridging the gap between autistic individuals and their caregivers by providing real-time emotional feedback.",
+  //   architecture:
+  //     "A python script that uses OpenCV and machine learning algorithms to recognize emotions in real-time.",
+  // },
+  // },
 ];
 
 export const SKILL_CATEGORIES: SkillCategory[] = [
