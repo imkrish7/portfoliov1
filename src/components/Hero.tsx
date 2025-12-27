@@ -251,7 +251,7 @@ const Hero: React.FC = () => {
                   Availability
                 </p>
                 <p className="text-lg font-black text-slate-900 tracking-tight">
-                  Open for Projects
+                  Open for Role or Project
                 </p>
               </div>
             </div>
