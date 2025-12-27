@@ -4,7 +4,6 @@ import { google } from "googleapis";
 
 async function POST(request: NextApiRequest, response: NextApiResponse) {
   const { name, email, message } = request.body;
-  console.log(name, email, message);
 
   const OAuth2 = google.auth.OAuth2;
 
