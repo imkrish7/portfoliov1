@@ -172,7 +172,7 @@ const ContactFooter: React.FC = () => {
                   </svg>
                 </div>
                 <h4 className="text-3xl font-black mb-2 tracking-tight">
-                  Transmission Received
+                  Message Received
                 </h4>
                 <p className="text-slate-400 font-medium">
                   I&apos;ve received your brief and will respond within 24
